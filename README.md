@@ -219,6 +219,9 @@ Ergo kalder vi altså bare <code>go</code> funktionen som følger, hvorefter man
 
 ```javascript
 k.go("game");
-````
+```
 
+### Resultatet
+Med denne kode vil ens spil således tage sig sådan her ud i ens browser:
 
+[![Watch the video](<../../../../../Desktop/Screen Recording 2025-02-01 at 12.16.14.mov>)]
