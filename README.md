@@ -22,10 +22,30 @@ npx create-kaplay mygame
 ```
 
 ### Kør KAPLAY projektet
-Efter at ens projekt er skabt, så kan man blot bruge følgende kommandoer til at starte og se ens spil i browseren, da sidste kommando vil give link, hvorfra man kan se ens spil:
+Efter at ens projekt er skabt, så kan man blot bruge følgende kommandoer til at starte og se ens spil i browseren, da sidste kommando vil give et link, hvorfra man kan se ens spil:
 
 ```bash
 cd mygame
 npm run dev
 ```
 
+## Kort gennemgang af et KAPLAY projekt
+Når ens KAPLAY projekt er skabt på ovenstående måde, så vil det have følgende mappe- og filstruktur:
+
+```bash
+├── node_modules
+├── public
+├── src
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+```
+
+Og den fil hvorudfra man starter programmeringen af ens spil findes i <code>main.js</code> filen, som ligger under <code>src</code> mappen, dvs. her:
+
+```bash
+└── src
+    └── main.js
+```
