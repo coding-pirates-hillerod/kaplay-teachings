@@ -225,3 +225,8 @@ k.go("game");
 ### Resultatet
 
 Med denne kode vil ens spil således tage sig sådan her ud i ens browser:
+
+
+https://github.com/user-attachments/assets/8ac9bd37-d420-4b1c-927f-0ab288e21e95
+
+
