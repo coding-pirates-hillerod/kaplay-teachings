@@ -98,6 +98,8 @@ Et 'event' kan fx være, når en spiller trykker på "space" på sit keyboard, t
 
 I det følgende gives en gennemgang af, hvordan man selv koder et (meget, meget, meget) simpelt spil med KAPLAY.
 
+>_Den færdige kode til kodning af dette spil, som gennemgås i nedenstående, kan i øvrigt findes her under mappen <code>mygame</code>_
+
 ### Skab dit spil
 
 Som beskrevet ovenfor er første step - når altså du har fået [Node.js](https://nodejs.org/en) installeret - at køre denne kommando til at sætte dit KAPLAY spilprojekt op:
