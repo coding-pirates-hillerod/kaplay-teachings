@@ -1,4 +1,4 @@
-# kaplay-teachings
+# KAPLAY
 
 Dette repo forsøger at forklare, hvordan man kommer i gang med at bygge spil med KAPLAY.
 
@@ -22,12 +22,16 @@ npx create-kaplay mygame
 ```
 
 ### Kør KAPLAY projektet
-Efter at ens projekt er skabt, så kan man blot bruge følgende kommandoer til at starte og se ens spil i browseren, da sidste kommando vil give et link, hvorfra man kan se ens spil:
+Efter at ens projekt er skabt, så kan man blot bruge følgende kommandoer til at starte og se ens spil i browseren, da sidste kommando vil give et link til ens browser, hvorfra man kan se starten på ens spil:
 
 ```bash
 cd mygame
 npm run dev
 ```
+
+Kører man således disse kommandoer, så skulle man i ens kommandolinje gerne få et link a la <code>http://localhost:3001/</code>, som, hvis man følger linket, gerne skulle vise noget a la det her i ens browser:
+
+![kaplay-game-start-output](<Screenshot 2025-02-01 at 09.35.58.png>)
 
 ## Kort gennemgang af et KAPLAY projekt
 Når ens KAPLAY projekt er skabt på ovenstående måde, så vil det have følgende mappe- og filstruktur:
@@ -49,3 +53,4 @@ Og den fil hvorudfra man starter programmeringen af ens spil findes i <code>main
 └── src
     └── main.js
 ```
+
