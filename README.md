@@ -98,7 +98,7 @@ Et 'event' kan fx være, når en spiller trykker på "space" på sit keyboard, t
 
 I det følgende gives en gennemgang af, hvordan man selv koder et (meget, meget, meget) simpelt spil med KAPLAY.
 
->_Den færdige kode til kodning af dette spil, som gennemgås i nedenstående, kan i øvrigt findes her under mappen <code>mygame</code>_
+> _Den færdige kode til kodning af dette spil, som gennemgås i nedenstående, kan i øvrigt findes her under mappen <code>mygame</code>_
 
 ### Skab dit spil
 
@@ -228,7 +228,9 @@ k.go("game");
 
 Med denne kode vil ens spil således tage sig sådan her ud i ens browser:
 
-
 https://github.com/user-attachments/assets/8ac9bd37-d420-4b1c-927f-0ab288e21e95
 
+## Contributions
+Dette repo er skabt med bidrag af:
 
+- [Jonas Bak Phillipson](https://github.com/jbakchr) (_Formand og Kaptajn for Coding Pirates Hillerød_)
