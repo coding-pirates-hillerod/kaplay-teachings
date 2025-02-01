@@ -211,6 +211,7 @@ k.scene("game", () => {
 ```
 
 ### Start 'game' scenen
+
 Eneste der nu blot mangler for at få startet og vist dette simple spil i browserne er, at vi sætter vores spil op til at vise 'game' scenen, når spillet starter.
 
 Og dette gøres meget enkelt ved at kalde <code>go()</code> funktionen allernederst i vores kode (dvs. her under koden til vores 'scene'), hvor vi blot skal angive navnet på vores 'scene' for at få denne, og spillets logik, vist og eksekveret i browseren.
@@ -222,6 +223,5 @@ k.go("game");
 ```
 
 ### Resultatet
-Med denne kode vil ens spil således tage sig sådan her ud i ens browser:
 
-[![Watch the video](<../../../../../Desktop/Screen Recording 2025-02-01 at 12.16.14.mov>)]
+Med denne kode vil ens spil således tage sig sådan her ud i ens browser:
