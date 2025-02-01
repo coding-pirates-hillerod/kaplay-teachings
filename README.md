@@ -54,3 +54,33 @@ Og den fil hvorudfra man starter programmeringen af ens spil findes i <code>main
     └── main.js
 ```
 
+## Kort gennemgang af et KAPLAY spils byggesten
+KAPLAY er overordnet set bygget op af 4 koncepter:
+
+1. Scenes
+2. Game objects
+3. Components
+4. Events
+
+Når man koder et spil i KAPLAY, så kan man tænke på ens spil lidt som et teater: 'scenes' er akterne, 'game objects' er skuespillerne, 'components' er det manuskript skuespillerne følger, og 'events' er de ting som sker undervejs i spillet, for skuespillerne osv.
+
+Fra KAPLAY's [dokumentation](https://kaplayjs.com/guides/starting/) giver dette billede et ganske godt overblik over disse 4 koncepter:
+
+![alt text](image.png)
+
+### Scenes
+Scener er det, der omslutter 'game objects' - scenens handlinger. 
+
+Typiske scener kan fx omfatte en hovedmenu, selve spillet og en 'game over' scene.
+
+### Game objects
+'Game objects' er den grundlæggende enhed i KAPLAY. Spilleren, en sommerfugl, et træ eller endda et stykke tekst er alle spilobjekter. De er så at sige 'skuespillerne', som bevæger sig, interagerer og gør spillet interessant.
+
+### Components
+'Components' er byggestenene i 'Game objects'. De definerer 'Game objects' adfærd, som hvordan det bevæger sig, ser ud og interagerer med andre objekter.
+
+### Events
+'Events' er specifikke øjeblikke i dit spil, hvor du kan håndtere og eksekvere kode, når et (specifikt) 'event' sker.
+
+Et 'event' kan fx være, når en spiller trykker på "space" på sit keyboard, til hvilket man så kan eksekvere noget kode, når det sker.
+
